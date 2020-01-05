@@ -1,3 +1,5 @@
+SET(EXECUTABLE_OUTPUT_PATH "${PROJECT_SOURCE_DIR}/bin")
+
 add_executable(2_1 myfirst.cpp)
 add_executable(2_2 carrots.cpp)
 add_executable(2_3 getinfo.cpp)

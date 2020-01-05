@@ -4,7 +4,11 @@
 cmake_minimum_required (VERSION 3.8)
 project(Cpp_Primer_6th)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c+=11")
+if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+endif()
+
+set(EXECUTABLE_OUTPUT_PATH "${PROJECT_SOURCE_DIR}/bin")
 
 # TODO: Add tests and install targets if needed.
 add_subdirectory(src/ch02_setting_out_to_cpp/listing)
