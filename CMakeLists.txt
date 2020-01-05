@@ -7,5 +7,8 @@ project(Cpp_Primer_6th)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c+=11")
 
 # TODO: Add tests and install targets if needed.
-add_subdirectory(src/ch2_setting_out_to_cpp/listing)
-add_subdirectory(src/ch2_setting_out_to_cpp/exercises)
+add_subdirectory(src/ch02_setting_out_to_cpp/listing)
+add_subdirectory(src/ch02_setting_out_to_cpp/exercises)
+
+add_subdirectory(src/ch03_dealing_with_data/listing)
+add_subdirectory(src/ch03_dealing_with_data/exercises)
