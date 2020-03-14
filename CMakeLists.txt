@@ -16,3 +16,6 @@ add_subdirectory(src/ch02_setting_out_to_cpp/exercises)
 
 add_subdirectory(src/ch03_dealing_with_data/listing)
 add_subdirectory(src/ch03_dealing_with_data/exercises)
+
+add_subdirectory(src/ch07_functions_cpp_programming_module/listing)
+add_subdirectory(src/ch07_functions_cpp_programming_module/exercises)
