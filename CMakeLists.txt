@@ -4,8 +4,12 @@
 cmake_minimum_required (VERSION 3.8)
 project(Cpp_Primer_6th)
 
-if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+if(CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+	set(CMAKE_C_COMPILER "/usr/bin/clang++")
+	set(CMAKE_CXX_COMPILER "/usr/bin/clang++")
+	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 endif()
 
 set(EXECUTABLE_OUTPUT_PATH "${PROJECT_SOURCE_DIR}/bin")
