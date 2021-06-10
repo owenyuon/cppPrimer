@@ -27,3 +27,6 @@ add_subdirectory(src/ch07_functions_cpp_programming_module/exercises)
 
 add_subdirectory(src/ch10_objects_and_classes/listing)
 #add_subdirectory(src/ch10_objects_and_classes/exercises)
+
+add_subdirectory(src/ch11_working_with_classes/listing)
+#add_subdirectory(src/ch11_working_with_classes/exercises)
